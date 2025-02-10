@@ -6,7 +6,8 @@
     "configurations": [
         
         {
-            "name": "Embedded Debug",
+    
+    lott1;⅘         "name": "Embedded Debug",
             "type": "embedded-debug",
             "request": "launch",
             "serialNumber": "<serial number of your device>",
