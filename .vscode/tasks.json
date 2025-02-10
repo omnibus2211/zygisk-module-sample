@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "embedded-debug.daplink-flash",
+			"serialNumber": "<serial number of your device>",
+			"program": "${command:embedded-debug.getBinaryFile}",
+			"problemMatcher": [
+				"$COBOLAnt"
+			],
+			"label": "embedded-debug.daplink-flash: Flash Device (DAPLink)"
+		}
+	]
+}
